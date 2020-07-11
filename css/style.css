@@ -1,0 +1,128 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #043d1d;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+    background: black;
+    color: whitesmoke;
+    padding: 0.5rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.name {
+    letter-spacing: 4px;
+    font-size: 1.2m;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.navegation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegation ul li {
+    display: inline-block;
+}
+
+.navegation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navegation ul li a:hover {
+    background: #043d1d;
+}
+
+.main {
+    padding-top: 8rem;
+}
+
+.footer {
+    color: whitesmoke;
+    background: black;
+    padding: 0.5rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+        color: whitesmoke;
+    }
+
+    .menu-icon:hover {
+        background: #043d1d;
+        text-align: center;
+    }
+
+    .navegation {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navegation ul {
+        display: none;
+    }
+
+    .navegation ul.show {
+        display: block;
+    }
+
+    .navegation ul li {
+        display: block;
+    }
+
+    .navegation ul li a {
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+
+    .navegation ul li a:hover {
+        background: #043d1d;
+    }
+}
