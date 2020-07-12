@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 85%;
     max-width: 850px;
@@ -71,7 +75,7 @@ body {
 }
 
 .main {
-    padding-top: 8rem;
+    padding-top: 4rem;
 }
 
 .footer {
@@ -125,4 +129,16 @@ body {
     .navegation ul li a:hover {
         background: #043d1d;
     }
+}
+
+section{
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    align-items: center;
+}
+
+section:nth-child(1){
+    background-image: url(../img/fondo2.jpg);
 }
