@@ -1,8 +1,10 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #043d1d;
-    background-size: cover;
-    background-position: center;
+    
+    background-image: url("../img/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
     margin: 0;
 }
 
@@ -139,6 +141,42 @@ section{
     align-items: center;
 }
 
-section:nth-child(1){
-    background-image: url(../img/fondo2.jpg);
+
+section:nth-child(1) h1{
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px #000;
+}
+
+section:nth-child(1) h3{
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 3px 3px 3px #000;
+}
+
+section:nth-child(2){
+    background-color: #444444c2;
+}
+.about{
+    color: #043d1d;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 3px; 
+    text-shadow: 3px 3px 3px rgb(37, 37, 37);
+}
+
+.info{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 25px;
+
+    margin-top: 60px;
+    margin-left: 180px;
+    margin-right: 180px;
 }
