@@ -134,8 +134,8 @@ section:nth-child(2) {
     width: 20%;
     float: left;
     margin-right: 0.5em;
-    border-radius: 10px;
-    color: #043d1d;
+    color: whitesmoke;
+    text-decoration: underline;
     text-align: center;
     font-size: 40px;
     letter-spacing: 3px;
@@ -158,17 +158,18 @@ section:nth-child(2) {
     color: whitesmoke;
     text-align: justify;
 
-    font-size: 15px;
+    font-size: 18px;
     height: 100%;
     width: 76%;
     float: right;
-    margin-top: 7em;
+    margin-top: 5em;
     margin-left: 0.5em;
 }
 
 #info p {
     text-align: center;
     margin: 2em;
+    border-bottom: #043d1d solid 3px;
 }
 
 #info hr {
@@ -305,6 +306,8 @@ section:nth-child(5) {
         width: 100%;
         height: auto;
         margin: auto;
+        font-size: 15px;
+        border-bottom: #043d1d solid 0px;
     }
 
     #vision{
@@ -313,5 +316,6 @@ section:nth-child(5) {
         width: 100%;
         height: auto;
         margin: auto;
+        font-size: 15px;
     }
 }
