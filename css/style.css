@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+
     background-image: url("../img/fondo2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -12,7 +12,7 @@ body {
     margin: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -93,7 +93,7 @@ html{
     margin-top: 6rem;
 }
 
-section{
+section {
     height: 700px;
     display: flex;
     justify-content: space-evenly;
@@ -102,7 +102,7 @@ section{
 }
 
 
-section:nth-child(1) h1{
+section:nth-child(1) h1 {
     font-size: 80px;
     text-align: center;
     letter-spacing: 6px;
@@ -111,7 +111,7 @@ section:nth-child(1) h1{
     text-shadow: 5px 5px 5px #000;
 }
 
-section:nth-child(1) h3{
+section:nth-child(1) h3 {
     font-size: 40px;
     letter-spacing: 4px;
     color: whitesmoke;
@@ -119,39 +119,42 @@ section:nth-child(1) h3{
     text-shadow: 3px 3px 3px #000;
 }
 
-section:nth-child(2){
-    background-color: #000000dc;
+section:nth-child(2) {
+    background-color: #1f1e1ec2;
 }
 
-#container-2{
-    padding-top:4em;
+#container{
+    padding-top: 2em;
     max-height: 100%;
 }
 
 
-#about{
+#about {
     height: 80%;
     width: 20%;
     float: left;
     margin-right: 0.5em;
-    /*border: #043d1d solid 4px;*/
     border-radius: 10px;
     color: #043d1d;
     text-align: center;
     font-size: 40px;
-    letter-spacing: 3px; 
+    letter-spacing: 3px;
     text-shadow: 3px 3px 3px rgb(37, 37, 37);
 }
-#about h3{
+
+#about h3 {
     font-size: 30px;
 }
-#about img{
+
+#about img {
     width: 100%;
     height: auto;
-    border:#043d1d solid 4px;
+    max-width: 220px;
+    max-height: 300px;
+    border: #043d1d solid 4px;
 }
 
-#info{
+#info {
     color: whitesmoke;
     text-align: justify;
 
@@ -159,24 +162,64 @@ section:nth-child(2){
     height: 100%;
     width: 76%;
     float: right;
-    margin-top: 6em;
+    margin-top: 7em;
     margin-left: 0.5em;
 }
+
 #info p {
     text-align: center;
     margin: 2em;
 }
+
 #info hr {
     color: #043d1d;
 }
 
-section:nth-child(3){
-    background-color: #261294c5;
+section:nth-child(3) {
+    background-color: #1f1e1ec2;
 }
-section:nth-child(4){
+
+#mision{
+    color: whitesmoke;
+    height: 100%;
+    width: 45%;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    word-spacing: 3px;
+    margin: 1em;
+    border-top: #043d1d solid 3px;
+    border-bottom: #043d1d solid 3px;
+    font-size: 23px;
+}
+#mision h4{
+    letter-spacing: 3px;
+    font-size: 26px;
+    text-decoration: underline;
+}
+#vision{
+    color: whitesmoke;
+    height: 100%;
+    width: 45%;
+    float: right;
+    padding: 5px;
+    text-align: center;
+    word-spacing: 3px;
+    margin: 1em;
+    border-top: #043d1d solid 3px;
+    border-bottom: #043d1d solid 3px;
+    font-size: 23px;
+}
+#vision h4{
+    letter-spacing: 3px;
+    font-size: 26px;
+    text-decoration: underline;
+}
+section:nth-child(4) {
     background-color: #27bd40c0;
 }
-section:nth-child(5){
+
+section:nth-child(5) {
     background-color: #e70c0ca4;
 }
 
@@ -225,34 +268,50 @@ section:nth-child(5){
         background: #043d1d;
     }
 
-    #container-2{
-        padding-top:0;
+    #container{
+        padding-top: 0;
         max-height: 100%;
     }
-    
-    #about{
+
+    #about {
         display: block;
         width: 100%;
         height: 20%;
     }
-    #about h3{
-        font-size: 15px ;
+
+    #about h3 {
+        font-size: 15px;
     }
 
-    #info{
+    #info {
         display: block;
         margin-top: 0;
         width: 100%;
         max-height: 700px;
     }
-    #info p{
+
+    #info p {
         font-size: 12px;
     }
-    
-#about img{
-    width: 40%;
-    height: auto;
-    border:#043d1d solid 4px;
-}
 
+    #about img {
+        width: 40%;
+        height: auto;
+        border: #043d1d solid 4px;
+    }
+    #mision{
+        padding: 0;
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    #vision{
+        padding: 0;
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
 }
