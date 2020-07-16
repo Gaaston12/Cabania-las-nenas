@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?79xq53');
-  src:  url('fonts/icomoon.eot?79xq53#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?79xq53') format('truetype'),
-    url('fonts/icomoon.woff?79xq53') format('woff'),
-    url('fonts/icomoon.svg?79xq53#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?uksinb');
+  src:  url('fonts/icomoon.eot?uksinb#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?uksinb') format('truetype'),
+    url('fonts/icomoon.woff?uksinb') format('woff'),
+    url('fonts/icomoon.svg?uksinb#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,8 +25,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-mail:before {
-  content: "\ea83";
+.icon-cross:before {
+  content: "\ea0f";
 }
 .icon-facebook2:before {
   content: "\ea91";

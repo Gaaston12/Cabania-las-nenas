@@ -18,7 +18,7 @@ html {
 
 .container {
     width: 85%;
-    max-width: 850px;
+    max-width: 1000px;
     max-height: 700px;
     margin: 0 auto;
 }
@@ -110,6 +110,9 @@ section:nth-child(1) h1 {
     text-shadow: 5px 5px 5px #000;
 }
 
+
+
+
 section:nth-child(1) h3 {
     font-size: 40px;
     letter-spacing: 4px;
@@ -175,6 +178,8 @@ section:nth-child(2) {
     color: #043d1d;
 }
 
+
+
 section:nth-child(3) {
     background-color: #1f1e1ec2;
 }
@@ -215,8 +220,86 @@ section:nth-child(3) {
     font-size: 26px;
     text-decoration: underline;
 }
+
+
 section:nth-child(4) {
-    background-color: #27bd40c0;
+    background-color: #1f1e1ec2;
+    margin-top: 0;
+}
+section:nth-child(4) h1{
+    margin-top: 100px;
+    letter-spacing: 3px;
+    font-size: 26px;
+    text-decoration: underline;
+    text-align: center;
+    color: whitesmoke;
+}
+.galeria{
+    width: 100%;
+    margin-left: 0;
+    list-style: none;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.galeria ul{
+    margin: 0;
+}
+.galeria li{
+    margin: 5px;
+}
+.galeria img{
+    width: 270px;
+    height: 180px;
+    border: #043d1d solid 4px;
+    box-shadow:0 0 10px 0 black;
+}
+.galeria img:hover{
+    filter: grayscale(50%);
+    cursor: pointer;
+    transition: filter .5s;
+}
+
+.container-img{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: trasform .5s ease-in;
+}
+.move{
+    transform: translateX(0);
+}
+.img-show{
+    height: 80%;
+    display: block;
+    object-fit: cover;
+    transform: scale(0);
+    transition: transform .2s .4s;
+}
+.show{
+    transform: scale(1);
+}
+.copy{
+    position: fixed;
+    color: whitesmoke;
+    bottom: 40px;
+}
+.icon-cross{
+    position: absolute;
+    color: whitesmoke;
+    top: 50px;
+    right: 100px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 section:nth-child(5) {
@@ -301,6 +384,19 @@ button{
 }
 
 
+@media only screen and (max-width: 700px){
+    .img-show{
+        width: 90%;
+        height: auto;
+    }
+    .copy{
+        bottom: 20px;
+    }
+    .icon-cross{
+        top: 10px;
+        font-size: 25px;
+    }
+}
 
 @media only screen and (max-width: 1000px){
     #redes{
@@ -423,5 +519,20 @@ button{
         height: auto;
         margin: auto;
         font-size: 15px;
+    }
+
+    #sec4{
+        height: 1000px;
+    }
+    .container-4{
+        margin-top: -100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .galeria img{
+        width: 160px;
+        height: 100px;
+        border: #043d1d solid 4px;
+        box-shadow:0 0 10px 0 black;
     }
 }
