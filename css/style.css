@@ -1,3 +1,6 @@
+:root{
+    --mainColor:#043d1d ;
+}
 * {
     box-sizing: border-box;
 }
@@ -55,6 +58,10 @@ html {
     letter-spacing: 4px;
     font-size: 1.2m;
 }
+.name:hover{
+    border-bottom: 2px var(--mainColor) solid;
+    padding: 2px;
+}
 
 .menu-icon {
     display: none;
@@ -78,7 +85,7 @@ html {
 }
 
 .navegation ul li a:hover {
-    background: #043d1d;
+    background: var(--mainColor);
 }
 
 .main {
@@ -100,7 +107,6 @@ section {
     align-items: center;
 }
 
-
 section:nth-child(1) h1 {
     font-size: 80px;
     text-align: center;
@@ -110,9 +116,6 @@ section:nth-child(1) h1 {
     text-shadow: 5px 5px 5px #000;
 }
 
-
-
-
 section:nth-child(1) h3 {
     font-size: 40px;
     letter-spacing: 4px;
@@ -120,6 +123,7 @@ section:nth-child(1) h3 {
     text-align: center;
     text-shadow: 3px 3px 3px #000;
 }
+
 
 section:nth-child(2) {
     background-color: #1f1e1ec2;
@@ -152,7 +156,7 @@ section:nth-child(2) {
     height: auto;
     max-width: 220px;
     max-height: 300px;
-    border: #043d1d solid 4px;
+    border: var(--mainColor) solid 4px;
     box-shadow:0 0 8px 0 black;
 }
 
@@ -171,11 +175,11 @@ section:nth-child(2) {
 #info p {
     text-align: center;
     margin: 2em;
-    border-bottom: #043d1d solid 3px;
+    border-bottom: var(--mainColor) solid 3px;
 }
 
 #info hr {
-    color: #043d1d;
+    color: var(--mainColor);
 }
 
 
@@ -193,8 +197,8 @@ section:nth-child(3) {
     text-align: center;
     word-spacing: 3px;
     margin: 1em;
-    border-top: #043d1d solid 3px;
-    border-bottom: #043d1d solid 3px;
+    border-top: var(--mainColor) solid 3px;
+    border-bottom: var(--mainColor) solid 3px;
     font-size: 23px;
 }
 #mision h4{
@@ -211,8 +215,8 @@ section:nth-child(3) {
     text-align: center;
     word-spacing: 3px;
     margin: 1em;
-    border-top: #043d1d solid 3px;
-    border-bottom: #043d1d solid 3px;
+    border-top: var(--mainColor) solid 3px;
+    border-bottom: var(--mainColor) solid 3px;
     font-size: 23px;
 }
 #vision h4{
@@ -253,7 +257,7 @@ section:nth-child(4) h1{
 .galeria img{
     width: 270px;
     height: 180px;
-    border: #043d1d solid 4px;
+    border: var(--mainColor) solid 4px;
     box-shadow:0 0 10px 0 black;
 }
 .galeria img:hover{
@@ -319,12 +323,12 @@ section:nth-child(5) {
 }
 
 .icon-facebook2, .icon-instagram, .icon-linkedin, .icon-whatsapp {
-    color: #043d1d;
+    color: var(--mainColor);
     text-decoration: none;
     padding: 1em;
     margin: .5em;   
     font-size: 18px;
-    border: #043d1d solid 3px;
+    border: var(--mainColor) solid 3px;
     background-color: rgba(245, 245, 245, 0.5);
     border-radius: 10px;
     box-shadow:0 0 8px 0 black;
@@ -341,12 +345,12 @@ section:nth-child(5) {
 
 #correo h4{
     text-align: center;
-    color: #043d1d;
+    color: var(--mainColor);
     font-size: 24px;
     text-decoration: underline;
 }
 form{
-    border: #043d1d solid 3px;
+    border: var(--mainColor) solid 3px;
     background-color: rgba(245, 245, 245, 0.5);
     border-radius: 10px;
     box-shadow:0 0 8px 0 black;
@@ -358,21 +362,21 @@ form .grupos{
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #043d1d;
+    color: var(--mainColor);
 }
 input, textarea{
     background: none;
-    color: #043d1d;
+    color: var(--mainColor);
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
     width: 70%;
     border: none;
-    border: 1px solid #043d1d;
+    border: 1px solid var(--mainColor);
     resize: none;
 }
 button{
-    background-color:#043d1d;
+    background-color:var(--mainColor);
     color: whitesmoke;
     border: none;
     margin: 2em;
@@ -439,7 +443,7 @@ button{
     }
 
     .menu-icon:hover {
-        background: #043d1d;
+        background: var(--mainColor);
         text-align: center;
     }
 
@@ -468,7 +472,7 @@ button{
     }
 
     .navegation ul li a:hover {
-        background: #043d1d;
+        background: var(--mainColor);
     }
 
     #container{
@@ -500,7 +504,7 @@ button{
     #about img {
         width: 40%;
         height: auto;
-        border: #043d1d solid 4px;
+        border: var(--mainColor) solid 4px;
     }
     #mision{
         padding: 0;
@@ -509,7 +513,7 @@ button{
         height: auto;
         margin: auto;
         font-size: 15px;
-        border-bottom: #043d1d solid 0px;
+        border-bottom: var(--mainColor) solid 0px;
     }
 
     #vision{
@@ -532,7 +536,7 @@ button{
     .galeria img{
         width: 160px;
         height: 100px;
-        border: #043d1d solid 4px;
+        border: var(--mainColor) solid 4px;
         box-shadow:0 0 10px 0 black;
     }
 }
