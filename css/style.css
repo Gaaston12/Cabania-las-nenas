@@ -1,7 +1,8 @@
 :root{
     --mainColor:#043d1d ;
 }
-* {
+
+*{
     box-sizing: border-box;
 }
 
