@@ -23,15 +23,14 @@ const closeModal = document.querySelector('.icon-cross');
 
 images.forEach(image =>{
     image.addEventListener('click', ()=>{
-        addImage(image.getAttribute('src'), image.getAttribute('alt'));
+        addImage(image.getAttribute('src'));
     })
 })
 
-const addImage = (srcImage, altImage)=>{
+const addImage = (srcImage)=>{
     containerImage.classList.toggle('move');
     imageContainer.classList.toggle('show');
     imageContainer.src = srcImage;
-    copy.innerHTML = altImage;
 }
 
 closeModal.addEventListener('click',()=>{
